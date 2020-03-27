@@ -1,0 +1,694 @@
+@import url('https://fonts.googleapis.com/css?family=Lato&display=swap');
+*{
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+ul{
+	list-style: none;
+}
+a{
+	text-decoration: none;
+	color: white;
+}
+p, a, h1, h2, h3, h4, h5, h6, li, input{
+	font-family: 'Lato', sans-serif;
+}
+h1, h2, h3, h4, h5, h6{
+	letter-spacing: 1px;
+}
+select,input{
+	outline: none;
+}
+@mixin flexCenter{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.displayNone{
+	display: none;
+}
+.displayBlock{
+	display: block;
+}
+$siva: #383838;
+
+body{
+	background-color: $siva;
+}
+.wrapper{
+	width: 70%;
+	margin: 0px auto;
+}
+$crvena :#cf2525;
+
+#poster{
+	width: 100%;
+	height: 100vh;
+	background-image: -webkit-linear-gradient(left, rgba(0,0,0,0.65) 0%, rgba(0,0,0,0) 20%,rgba(0,0,0,0) 80%,rgba(0,0,0,0.65) 100%),
+	url('../img/poster.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	box-shadow: inset 0px -100px 170px 150px $siva;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	#posterTitle{
+		text-align: center;
+		margin-bottom: 60px;
+		@include flexCenter;
+		flex-direction: column;
+		h1{
+			color: white;
+		}
+		div{
+			width: 240px;
+			height: 37px;
+			@include flexCenter;
+			margin-top: 10px;
+			background-color: $crvena;
+			border-radius: 7px;
+			a{
+				text-transform: uppercase;
+				font-size: 13px;
+				line-height: 5px;
+				letter-spacing: 1px;
+			}
+		}
+	}
+}
+#header{
+	width: 100%;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	display: flex;
+	justify-content: center;
+	.wrapper{
+		display: flex;
+		justify-content: center;
+		div:nth-child(1), div:nth-child(3){
+			width: 20%;
+		}
+		div:nth-child(2){
+			width: 60%;
+		}
+		div{
+			display: flex;
+			ul{
+				width: 100%;
+				text-transform: uppercase;
+				a{
+					font-size: 13px;
+					color: white;
+					font-weight: 900;
+				}
+			}
+		}
+		#nav{
+			@include flexCenter;
+			li{
+				margin: 20px;
+			}
+		}
+		div:last-child ul{
+			display: flex;
+			justify-content: space-between;
+			align-items: center;
+		}
+		#user{
+			position: relative;
+			font-size: 13px;
+			color: white;
+			font-weight: 900;
+			&:hover{
+				cursor: pointer;
+			}
+			#signOutBlock{
+				display: none;
+				height: 60px;
+				position: absolute;
+				top: 10px;
+				left: 0px;	
+			}
+		}
+	}
+}
+
+#indexSlider{
+	width: 100%;
+	@include flexCenter;
+	flex-direction: column;
+	text-align: center;
+	margin-top: 30px;
+	.indexSliderMovie img{
+		width: 100%;
+	}
+}
+
+#highlights{
+	margin: 80px 0px;
+	.wrapper{
+		display: flex;
+		flex-direction: column;
+		flex-wrap: wrap;
+		justify-content: flex-start;
+		h2{
+			letter-spacing: 2px;
+			font-weight: 1;
+			color: white;
+		}
+		#highlightsBlock{
+			width: 100%;
+			display: flex;
+			justify-content: space-between;
+			margin-top: 15px;
+			.highlight{
+				@include flexCenter;
+				width: 240px;
+				min-height: 90px;
+				background-color: grey;
+				border-radius: 3px;
+				.icons{
+					display: block;
+					width: 40px;
+					height: 38px;
+					background-image: url('../img/icons.png');
+					background-repeat: no-repeat;
+				}
+				p{
+					width: 202px;
+				}
+				.icons.icon-watched{
+					background-position: -5px -0px;
+				}
+				.icons.icon-seen{
+					background-position: -42px -0px;
+				}
+				.icons.icon-reviewed{
+					background-position: -78px -0px;
+				}
+			}
+			.highlight:hover{
+				background-color: $crvena;
+			}
+		}
+	}
+}
+
+#content{
+	background-color: white;
+	.wrapper{
+		display: flex;
+		justify-content: space-between;
+		hr{
+			margin-top: 15px;
+			width: 75%;
+			border: 1px $siva solid;
+			border-radius: 5px;
+		}
+		h2{
+			width: 100%;
+			text-align: left;
+			margin-bottom: 10px;
+			letter-spacing: 2px;
+			font-weight: 1;
+		}
+	}
+	#reviews{
+		width: 80%;
+		padding-top: 50px;
+		padding-bottom: 80px;
+		.title{
+			h2,p{
+				color: $siva;
+			}
+		}
+		#reviewBlock{
+			width: 100%;
+			display: flex;
+			flex-wrap: wrap;
+			align-items: flex-start;
+			justify-content: center;
+			flex-direction: column;
+			.review{
+				display: flex;
+				width: 70%;
+				margin: 1% 0% 0% 2%;
+				padding: 15px;
+				border-bottom: 1px solid darkgrey;
+				img{
+					width: 148px;
+					height: 198px;
+					margin-right: 20px;
+					border-radius: 2px;
+				}
+				a{
+					color: #807e7e;;
+				}
+				#text{
+					line-height: 21px;
+					font-size: 14px;
+					margin-top: 5px;
+					color: black;
+					.more-text{
+						display: none;
+					}
+				}
+				h4{
+					font-size: 19px;
+					text-transform: uppercase;
+					margin-bottom: 18px;
+					color: black;
+				}
+				#time{
+					font-size: 12px;
+					margin-top: 5px;
+				}
+			}
+		}
+	}
+	#topReviewers{
+		width: 20%;
+		display: flex;
+		flex-direction: column;
+		padding-top: 150px;
+		h2{
+			font-size: 14px;
+			margin: 0px;
+		}
+		hr{
+			width: 100%;
+		}
+		#topReviewersBlock{
+			.userIcon{
+				display: flex;
+				align-items: center;
+				padding: 15px 0px;
+				border-bottom: 1px solid darkgrey; 
+				img{
+					width: 40px;
+					height: 40px;
+					margin-right: 8px;
+					border-radius: 50%;
+				}
+				p{
+					font-size: 11px;
+				}
+			}
+		}
+	}
+}
+
+
+#news{
+	min-height: 400px;
+	padding-top: 15px;
+	@include flexCenter;
+	background-color: white;
+	p,img{
+		margin-bottom: 15px;
+	}
+	p{
+		color: #807e7e;
+	}
+	hr{
+		border: 0.5px solid #ededed;
+	}
+	#newsBlock{
+		display: flex;
+		justify-content: space-between;
+		margin: 4% 0%;
+		div:nth-child(2){
+			margin: 0% 3%;
+		}
+		.news{
+			width: 282px;
+			display: flex;
+			flex-direction: column;
+			justify-content: center;
+		}
+		img{
+			width: 282px;
+			height: 159px;
+			border-radius: 2px;
+		}
+		p{
+			font-size: 13px;
+			color: #807e7e;
+		}
+		h3{
+			color: $siva;
+			margin-bottom: 10px;
+		}
+	}
+}
+
+#footer{
+	width: 100%;
+	height: 110px;
+	@include flexCenter;
+	flex-direction: column;
+	background-color: $siva;
+	a,p{
+		color: grey;
+	}
+	#rowFirst{
+		width: 80%;
+		@include flexCenter;
+		div{
+			width: 45%;
+		}
+		ul{
+			@include flexCenter;
+			li{
+				margin: 15px;
+			}
+		}
+	}
+}
+
+#movies{
+	padding-top: 40px;
+	background-color: white;
+	h2,h4{
+		margin-bottom: 40px;
+		text-align: center;
+		color: black;
+		text-transform: uppercase;
+		letter-spacing: 2px;
+		font-weight: 1;
+	}
+	#topMovies{
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+		padding-bottom: 50px;
+		#topMoviesBlock{
+			width: 346px;
+			height: 512px;
+		}
+		h4{
+			width: 15%;
+			color: $crvena;
+		}
+	}
+	#manipulateMovies{
+		display: flex;
+		#sortFilterBlock{
+			display: flex;
+			width: 100%;
+			margin-bottom: 50px;
+			align-items: center;
+			select{
+				margin:10px;
+				padding: 5px;
+			}
+			i{
+				color: white;
+			}
+		}
+		#search{
+			display: flex;
+			width: 180px;
+			height: 30px;
+			border-bottom: 1px solid $siva;
+			#searchInput{
+				background-color: transparent;
+				border: none;
+				padding-left: 5px;
+				color: black;
+				placeholder{
+					color: black;
+				}
+			}
+			a{
+				display: flex;
+				align-items: center;
+				padding-right: 5px;
+				i{
+					color: black;
+				}
+			}
+		}
+	}
+	
+	#moviesBlock{
+		width: 100%;	
+		display: flex;
+		flex-wrap: wrap;
+		.error{
+			padding: 70px 0px;
+			color: black;
+		}
+	}
+	#infoBlock{
+		position: absolute;
+		width: 0%;
+		height: 0%;
+		visibility: hidden;
+		left: 0px;
+		background-color: rgba(0,0,0,0.8);
+		@include flexCenter;
+		.infoMovie{
+			width: 80%;
+			height: 550px;
+			display: flex;
+			justify-content: space-between;
+			position: relative;
+			background-color: white;
+			.crewBlock{
+				display: flex;
+				padding-top: 50px;
+				ul{
+					margin: 0px 10px;
+					li{
+						margin-top: 3px;
+						color: black;
+					}
+				}
+				hr{
+					border: 0.5px lightgrey solid;
+					border-radius: 5px;
+				}
+			}
+			#addToWatchlist{
+				&:hover{
+					cursor: pointer;
+				}
+			}
+			#infoClose{
+				display: flex;
+				position: absolute;
+				top: 30px;
+				left: 30px;
+				&:hover{
+					cursor: pointer;
+				}
+				span{
+					background-color: black;
+				}
+			}
+			#infoDesc{
+				width: 70%;
+				height: 100%;
+				padding-left: 8%;
+				h2,p{
+					color: $siva;
+				}
+				h2{
+					padding-top: 50px;
+				}
+				.watchlistIcon{
+					a{
+						color: $crvena;
+					}
+				}
+			}
+			#infoPhoto{
+				width: 30%;
+				display: flex;
+				justify-content: flex-end;
+				img{
+					width: 250px;
+					height: 346px;
+				}	
+			}
+		}
+	}
+}
+.movie{
+	width: 25%;
+	margin-bottom: 20px;
+	display: flex;
+	justify-content: center;
+	img{
+		max-height: 270px;
+		&:hover{
+			cursor: pointer;
+		}
+	}
+}
+select{
+	width: 180px;
+	background-color: transparent;
+	border: none;
+	border-bottom: 1px solid $siva;
+	option{
+		height: 60px;
+		outline: none;
+	}
+}
+
+
+#watchlist{
+	min-height: 80vh;
+	background-color: white;
+	h2,h4{
+		text-align: center;
+		padding-top: 25px;
+		padding-bottom: 25px;
+		letter-spacing: 2px;
+		font-weight: 1;
+	}
+	.watchlistMovie{
+		width: 100%;
+		display: flex;
+		padding-bottom: 30px;
+		img{
+			width: 25%;
+		}
+		.remove{
+			display: flex;
+			width: 150px;
+			margin-left: 50px;
+		}
+	}
+	#watchlistEmpty{
+		width: 40%;
+		margin: 0px auto;
+		padding-top: 30px;
+		a{
+			color: $crvena;
+		}
+	}
+	.remove{
+		.removeFromWatchlist{
+			display: flex;
+			&:hover{
+				cursor: pointer;
+			}
+			span{
+				background-color: black;
+			}
+		}
+		p{
+			padding-left: 15px;
+		}
+	}
+}
+
+#signInBlock, #registerBlock{
+	width: 0%;
+	height: 0%;
+	@include flexCenter;
+	visibility: hidden;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	z-index: 999;
+	background-color: rgba(0, 0, 0, 0.92);
+	.formClose{
+		display: flex;
+		position: absolute;
+		top: 40px;
+		right: 40px;
+		span{
+			background-color: white;
+		}
+	}
+	form{
+		width: 450px;
+		min-height: 40vh;
+		@include flexCenter;
+		flex-direction: column;
+		background-color: white;
+		h4{
+			color: black;
+		}
+		div{
+			width: 100%;
+			@include flexCenter;
+			padding: 10px;
+			label{
+				width: 26%;
+				padding: 5px;
+				margin: 10px;
+			}
+			input{
+				width: 65%;
+				height: 30px;
+				padding: 5px;
+				margin: 10px;
+				border: none;
+				border-bottom: 2px solid black;
+				background-color: transparent;
+				color: $siva;
+				line-height: 10px;
+				letter-spacing: 1px;
+				&::placeholder{
+					color: $siva;
+				}
+			}
+		}
+		input[type=button]{
+			width: 100px;
+			margin-top: 15px;
+			color: white;
+			font-size: 12px;
+			background-color: $siva;
+			border: none;
+			border-radius: 5px;
+			&:hover{
+				cursor: pointer;
+				color: lightgrey;
+				transition: color 0.2s;
+			}
+		}
+		div:last-child, div:first-child{
+			width: 100%;
+		}
+	}
+}
+#registerBlock{
+	form{
+		flex-direction: row;
+		flex-wrap: wrap;
+		div{
+			width: 48%;
+			input{
+				width: 100%;
+			}
+		}
+	}
+}
+.close{
+	width: 20px;
+	span{
+		display: block;
+		width: 2px;
+		height: 25px;
+	}
+	span:nth-child(1){
+		transform: rotate(-43deg);
+		height: 29px;
+	}
+	span:nth-child(2){
+		transform: rotate(43deg);
+	}
+}
+
+@media only screen and (max-width: 1320px){
+	body .wrapper{
+		width: 80%;
+	}
+}

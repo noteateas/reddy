@@ -1,0 +1,32 @@
+[
+	{
+		"id": "1",
+		"title":"Milking It",
+		"description":"We talk to American filmmaker Kelly Reichardt about her new film, First Cow.",
+		"photo":{
+			"source":"1.jpg",
+			"alt":"first cow"
+		},
+		"category":"movies"
+	},
+	{
+		"id": "2",
+		"title":"Life in Film: Levan Akin",
+		"description":"The writer/director of And Then We Danced talks masculinity and queer love stories.",
+		"photo":{
+			"source":"2.jpg",
+			"alt":"And Then We Danced"
+		},
+		"category":"movies"
+	},
+	{
+		"id": "3",
+		"title":"Portrait of a Lady on Fire",
+		"description":"We sit down with one of the leading women of Céline Sciamma’s Portrait of a Lady on Fire.",
+		"photo":{
+			"source":"3.jpg",
+			"alt":"Portrait of a Lady on Fire"
+		},
+		"category":"interview"
+	}
+]

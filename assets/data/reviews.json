@@ -1,0 +1,70 @@
+[
+	{
+		"id": 1,
+		"username":"juraanrez",
+		"profilePhoto":{
+			"source":"1.jpg",
+			"alt":"profile photo"
+		},
+		"name":"Julian Ramirez",
+		"filmTitle":"Punch-Drunk Love",
+		"photo": {
+			"source":"5.jpg",
+			"alt":"Punch-Drunk Love"
+		},
+		"text":"I can't say it's PT Anderson's best, but goddamn is it my favorite. Such a great character study that really hits home just how great of an actor Adam Sandler can be. Actually everyone is pretty darn perfect in this. From Philip Seymour Hoffman's balance of menacing and cartoonish, the seven sisters inanity, to Emily Watson portraying Lena's head over heels Innocents with utmost sincerity. It's all just...ugh, so damn beautiful that I want to bite it.",
+		"likes": 57,
+		"time":"30min ago"
+	},
+	{
+		"id": 2,
+		"username":"liladorian",
+		"profilePhoto":{
+			"source":"2.jpg",
+			"alt":"profile photo"
+		},
+		"name":"Lila Dorian",
+		"filmTitle":"Brazil",
+		"photo": {
+			"source":"3.jpg",
+			"alt":"Brazil"
+		},
+		"text":"The Film That Changed My Life. Saw it 10 times or more during its theatrical run, and it pretty much singlehandedly kick-started my sense of the medium as more than passing entertainment; can't really pretend to be objective about it now, though I'd expected to rate it even higher. As an exercise, I tried very hard this time—my first viewing since around 1994 or '95—to watch it as if I don't have it memorized, imagining how it would play to virgin eyes. For about half an hour, it was clearly the greatest movie ever made, a stunningly realized dystopic-absurdist playground/nightmare. Then Gilliam is forced to start paying at least marginal attention to the narrative, which isn't his forte, and it idles down to merely magnificent. Then we get a whole lot of Kim Greist, in the role of Not Ellen Barkin Goddamn It Why Is She Not Ellen Barkin, and I was reminded that even at the height of my obsession there were always stretches of the second half that felt really sluggish*, even as the eye-popping and/or hilarious bits keep coming. Much as I'd like to, though, I can't blame that all on Greist. Brazil is a masterpiece in every way...except rhythmically.",
+		"likes": 110,
+		"time":"2 hours ago"
+	},
+	{
+		"id": 3,
+		"username":"bradster",
+		"profilePhoto":{
+			"source":"3.jpg",
+			"alt":"profile photo"
+		},
+		"name":"Brad Leone",
+		"filmTitle":"Back to the Future",
+		"photo": {
+			"source":"19.jpg",
+			"alt":"Back to the Future"
+		},
+		"text": "Perfect movies don't exist, but movies can give you the perfect feeling. Every scene fills me with joy, and no matter how many times I revisit this film, I always get so giddy at every set piece. They truly do not make movies like they used to.",
+		"likes": 254,
+		"time":"1 day ago"
+	},
+	{
+		"id": 4,
+		"username":"orville987",
+		"profilePhoto":{
+			"source":"4.jpg",
+			"alt":"profile photo"
+		},
+		"name":"Orville Pond",
+		"filmTitle":"Crooklyn",
+		"photo": {
+			"source":"9.jpg",
+			"alt":"Crooklyn"
+		},
+		"text":"Wow. This was extremely authentic and powerful, a nostalgic recall to the glory days of innocent childhood aided by a perfect soundtrack reminiscent of the era and Lee’s direction was outstanding. There’s also some crazy good child acting here (particularly from Zelda Harris) not to mention the exemplary performances from Alfre Woodard and Delroy Lindo. I liked this far more than I expected to.",
+		"likes": 48,
+		"time":"2 days ago"
+	}
+]

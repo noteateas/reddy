@@ -1,0 +1,26 @@
+[
+	{
+		"id":1,
+		"title":"some1",
+		"photo": {
+			"source": "1.jpg",
+			"alt": "111"
+		}
+	},
+	{
+		"id":2,
+		"title":"some2",
+		"photo": {
+			"source": "2.jpg",
+			"alt": "Amour222"
+		}
+	},
+	{
+		"id":3,
+		"title":"some3",
+		"photo": {
+			"source": "3.jpg",
+			"alt": "Amour333"
+		}
+	}
+]

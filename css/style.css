@@ -1,0 +1,564 @@
+@import url("https://fonts.googleapis.com/css?family=Lato&display=swap");
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box; }
+
+ul {
+  list-style: none; }
+
+a {
+  text-decoration: none;
+  color: white; }
+
+p, a, h1, h2, h3, h4, h5, h6, li, input {
+  font-family: 'Lato', sans-serif; }
+
+h1, h2, h3, h4, h5, h6 {
+  letter-spacing: 1px; }
+
+select, input {
+  outline: none; }
+
+.displayNone {
+  display: none; }
+
+.displayBlock {
+  display: block; }
+
+body {
+  background-color: #383838; }
+
+.wrapper {
+  width: 70%;
+  margin: 0px auto; }
+
+#poster {
+  width: 100%;
+  height: 100vh;
+  background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, 0.65) 0%, rgba(0, 0, 0, 0) 20%, rgba(0, 0, 0, 0) 80%, rgba(0, 0, 0, 0.65) 100%), url("../img/poster.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  box-shadow: inset 0px -100px 170px 150px #383838;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between; }
+  #poster #posterTitle {
+    text-align: center;
+    margin-bottom: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; }
+    #poster #posterTitle h1 {
+      color: white; }
+    #poster #posterTitle div {
+      width: 240px;
+      height: 37px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-top: 10px;
+      background-color: #cf2525;
+      border-radius: 7px; }
+      #poster #posterTitle div a {
+        text-transform: uppercase;
+        font-size: 13px;
+        line-height: 5px;
+        letter-spacing: 1px; }
+
+#header {
+  width: 100%;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  display: flex;
+  justify-content: center; }
+  #header .wrapper {
+    display: flex;
+    justify-content: center; }
+    #header .wrapper div:nth-child(1), #header .wrapper div:nth-child(3) {
+      width: 20%; }
+    #header .wrapper div:nth-child(2) {
+      width: 60%; }
+    #header .wrapper div {
+      display: flex; }
+      #header .wrapper div ul {
+        width: 100%;
+        text-transform: uppercase; }
+        #header .wrapper div ul a {
+          font-size: 13px;
+          color: white;
+          font-weight: 900; }
+    #header .wrapper #nav {
+      display: flex;
+      justify-content: center;
+      align-items: center; }
+      #header .wrapper #nav li {
+        margin: 20px; }
+    #header .wrapper div:last-child ul {
+      display: flex;
+      justify-content: space-between;
+      align-items: center; }
+    #header .wrapper #user {
+      position: relative;
+      font-size: 13px;
+      color: white;
+      font-weight: 900; }
+      #header .wrapper #user:hover {
+        cursor: pointer; }
+      #header .wrapper #user #signOutBlock {
+        display: none;
+        height: 60px;
+        position: absolute;
+        top: 10px;
+        left: 0px; }
+
+#indexSlider {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  margin-top: 30px; }
+  #indexSlider .indexSliderMovie img {
+    width: 100%; }
+
+#highlights {
+  margin: 80px 0px; }
+  #highlights .wrapper {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: flex-start; }
+    #highlights .wrapper h2 {
+      letter-spacing: 2px;
+      font-weight: 1;
+      color: white; }
+    #highlights .wrapper #highlightsBlock {
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+      margin-top: 15px; }
+      #highlights .wrapper #highlightsBlock .highlight {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 240px;
+        min-height: 90px;
+        background-color: grey;
+        border-radius: 3px; }
+        #highlights .wrapper #highlightsBlock .highlight .icons {
+          display: block;
+          width: 40px;
+          height: 38px;
+          background-image: url("../img/icons.png");
+          background-repeat: no-repeat; }
+        #highlights .wrapper #highlightsBlock .highlight p {
+          width: 202px; }
+        #highlights .wrapper #highlightsBlock .highlight .icons.icon-watched {
+          background-position: -5px -0px; }
+        #highlights .wrapper #highlightsBlock .highlight .icons.icon-seen {
+          background-position: -42px -0px; }
+        #highlights .wrapper #highlightsBlock .highlight .icons.icon-reviewed {
+          background-position: -78px -0px; }
+      #highlights .wrapper #highlightsBlock .highlight:hover {
+        background-color: #cf2525; }
+
+#content {
+  background-color: white; }
+  #content .wrapper {
+    display: flex;
+    justify-content: space-between; }
+    #content .wrapper hr {
+      margin-top: 15px;
+      width: 75%;
+      border: 1px #383838 solid;
+      border-radius: 5px; }
+    #content .wrapper h2 {
+      width: 100%;
+      text-align: left;
+      margin-bottom: 10px;
+      letter-spacing: 2px;
+      font-weight: 1; }
+  #content #reviews {
+    width: 80%;
+    padding-top: 50px;
+    padding-bottom: 80px; }
+    #content #reviews .title h2, #content #reviews .title p {
+      color: #383838; }
+    #content #reviews #reviewBlock {
+      width: 100%;
+      display: flex;
+      flex-wrap: wrap;
+      align-items: flex-start;
+      justify-content: center;
+      flex-direction: column; }
+      #content #reviews #reviewBlock .review {
+        display: flex;
+        width: 70%;
+        margin: 1% 0% 0% 2%;
+        padding: 15px;
+        border-bottom: 1px solid darkgrey; }
+        #content #reviews #reviewBlock .review img {
+          width: 148px;
+          height: 198px;
+          margin-right: 20px;
+          border-radius: 2px; }
+        #content #reviews #reviewBlock .review a {
+          color: #807e7e; }
+        #content #reviews #reviewBlock .review #text {
+          line-height: 21px;
+          font-size: 14px;
+          margin-top: 5px;
+          color: black; }
+          #content #reviews #reviewBlock .review #text .more-text {
+            display: none; }
+        #content #reviews #reviewBlock .review h4 {
+          font-size: 19px;
+          text-transform: uppercase;
+          margin-bottom: 18px;
+          color: black; }
+        #content #reviews #reviewBlock .review #time {
+          font-size: 12px;
+          margin-top: 5px; }
+  #content #topReviewers {
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    padding-top: 150px; }
+    #content #topReviewers h2 {
+      font-size: 14px;
+      margin: 0px; }
+    #content #topReviewers hr {
+      width: 100%; }
+    #content #topReviewers #topReviewersBlock .userIcon {
+      display: flex;
+      align-items: center;
+      padding: 15px 0px;
+      border-bottom: 1px solid darkgrey; }
+      #content #topReviewers #topReviewersBlock .userIcon img {
+        width: 40px;
+        height: 40px;
+        margin-right: 8px;
+        border-radius: 50%; }
+      #content #topReviewers #topReviewersBlock .userIcon p {
+        font-size: 11px; }
+
+#news {
+  min-height: 400px;
+  padding-top: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white; }
+  #news p, #news img {
+    margin-bottom: 15px; }
+  #news p {
+    color: #807e7e; }
+  #news hr {
+    border: 0.5px solid #ededed; }
+  #news #newsBlock {
+    display: flex;
+    justify-content: space-between;
+    margin: 4% 0%; }
+    #news #newsBlock div:nth-child(2) {
+      margin: 0% 3%; }
+    #news #newsBlock .news {
+      width: 282px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center; }
+    #news #newsBlock img {
+      width: 282px;
+      height: 159px;
+      border-radius: 2px; }
+    #news #newsBlock p {
+      font-size: 13px;
+      color: #807e7e; }
+    #news #newsBlock h3 {
+      color: #383838;
+      margin-bottom: 10px; }
+
+#footer {
+  width: 100%;
+  height: 110px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: #383838; }
+  #footer a, #footer p {
+    color: grey; }
+  #footer #rowFirst {
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center; }
+    #footer #rowFirst div {
+      width: 45%; }
+    #footer #rowFirst ul {
+      display: flex;
+      justify-content: center;
+      align-items: center; }
+      #footer #rowFirst ul li {
+        margin: 15px; }
+
+#movies {
+  padding-top: 40px;
+  background-color: white; }
+  #movies h2, #movies h4 {
+    margin-bottom: 40px;
+    text-align: center;
+    color: black;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: 1; }
+  #movies #topMovies {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 50px; }
+    #movies #topMovies #topMoviesBlock {
+      width: 346px;
+      height: 512px; }
+    #movies #topMovies h4 {
+      width: 15%;
+      color: #cf2525; }
+  #movies #manipulateMovies {
+    display: flex; }
+    #movies #manipulateMovies #sortFilterBlock {
+      display: flex;
+      width: 100%;
+      margin-bottom: 50px;
+      align-items: center; }
+      #movies #manipulateMovies #sortFilterBlock select {
+        margin: 10px;
+        padding: 5px; }
+      #movies #manipulateMovies #sortFilterBlock i {
+        color: white; }
+    #movies #manipulateMovies #search {
+      display: flex;
+      width: 180px;
+      height: 30px;
+      border-bottom: 1px solid #383838; }
+      #movies #manipulateMovies #search #searchInput {
+        background-color: transparent;
+        border: none;
+        padding-left: 5px;
+        color: black; }
+        #movies #manipulateMovies #search #searchInput placeholder {
+          color: black; }
+      #movies #manipulateMovies #search a {
+        display: flex;
+        align-items: center;
+        padding-right: 5px; }
+        #movies #manipulateMovies #search a i {
+          color: black; }
+  #movies #moviesBlock {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap; }
+    #movies #moviesBlock .error {
+      padding: 70px 0px;
+      color: black; }
+  #movies #infoBlock {
+    position: absolute;
+    width: 0%;
+    height: 0%;
+    visibility: hidden;
+    left: 0px;
+    background-color: rgba(0, 0, 0, 0.8);
+    display: flex;
+    justify-content: center;
+    align-items: center; }
+    #movies #infoBlock .infoMovie {
+      width: 80%;
+      height: 550px;
+      display: flex;
+      justify-content: space-between;
+      position: relative;
+      background-color: white; }
+      #movies #infoBlock .infoMovie .crewBlock {
+        display: flex;
+        padding-top: 50px; }
+        #movies #infoBlock .infoMovie .crewBlock ul {
+          margin: 0px 10px; }
+          #movies #infoBlock .infoMovie .crewBlock ul li {
+            margin-top: 3px;
+            color: black; }
+        #movies #infoBlock .infoMovie .crewBlock hr {
+          border: 0.5px lightgrey solid;
+          border-radius: 5px; }
+      #movies #infoBlock .infoMovie #addToWatchlist:hover {
+        cursor: pointer; }
+      #movies #infoBlock .infoMovie #infoClose {
+        display: flex;
+        position: absolute;
+        top: 30px;
+        left: 30px; }
+        #movies #infoBlock .infoMovie #infoClose:hover {
+          cursor: pointer; }
+        #movies #infoBlock .infoMovie #infoClose span {
+          background-color: black; }
+      #movies #infoBlock .infoMovie #infoDesc {
+        width: 70%;
+        height: 100%;
+        padding-left: 8%; }
+        #movies #infoBlock .infoMovie #infoDesc h2, #movies #infoBlock .infoMovie #infoDesc p {
+          color: #383838; }
+        #movies #infoBlock .infoMovie #infoDesc h2 {
+          padding-top: 50px; }
+        #movies #infoBlock .infoMovie #infoDesc .watchlistIcon a {
+          color: #cf2525; }
+      #movies #infoBlock .infoMovie #infoPhoto {
+        width: 30%;
+        display: flex;
+        justify-content: flex-end; }
+        #movies #infoBlock .infoMovie #infoPhoto img {
+          width: 250px;
+          height: 346px; }
+
+.movie {
+  width: 25%;
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: center; }
+  .movie img {
+    max-height: 270px; }
+    .movie img:hover {
+      cursor: pointer; }
+
+select {
+  width: 180px;
+  background-color: transparent;
+  border: none;
+  border-bottom: 1px solid #383838; }
+  select option {
+    height: 60px;
+    outline: none; }
+
+#watchlist {
+  min-height: 80vh;
+  background-color: white; }
+  #watchlist h2, #watchlist h4 {
+    text-align: center;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    letter-spacing: 2px;
+    font-weight: 1; }
+  #watchlist .watchlistMovie {
+    width: 100%;
+    display: flex;
+    padding-bottom: 30px; }
+    #watchlist .watchlistMovie img {
+      width: 25%; }
+    #watchlist .watchlistMovie .remove {
+      display: flex;
+      width: 150px;
+      margin-left: 50px; }
+  #watchlist #watchlistEmpty {
+    width: 40%;
+    margin: 0px auto;
+    padding-top: 30px; }
+    #watchlist #watchlistEmpty a {
+      color: #cf2525; }
+  #watchlist .remove .removeFromWatchlist {
+    display: flex; }
+    #watchlist .remove .removeFromWatchlist:hover {
+      cursor: pointer; }
+    #watchlist .remove .removeFromWatchlist span {
+      background-color: black; }
+  #watchlist .remove p {
+    padding-left: 15px; }
+
+#signInBlock, #registerBlock {
+  width: 0%;
+  height: 0%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  visibility: hidden;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  z-index: 999;
+  background-color: rgba(0, 0, 0, 0.92); }
+  #signInBlock .formClose, #registerBlock .formClose {
+    display: flex;
+    position: absolute;
+    top: 40px;
+    right: 40px; }
+    #signInBlock .formClose span, #registerBlock .formClose span {
+      background-color: white; }
+  #signInBlock form, #registerBlock form {
+    width: 450px;
+    min-height: 40vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: white; }
+    #signInBlock form h4, #registerBlock form h4 {
+      color: black; }
+    #signInBlock form div, #registerBlock form div {
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 10px; }
+      #signInBlock form div label, #registerBlock form div label {
+        width: 26%;
+        padding: 5px;
+        margin: 10px; }
+      #signInBlock form div input, #registerBlock form div input {
+        width: 65%;
+        height: 30px;
+        padding: 5px;
+        margin: 10px;
+        border: none;
+        border-bottom: 2px solid black;
+        background-color: transparent;
+        color: #383838;
+        line-height: 10px;
+        letter-spacing: 1px; }
+        #signInBlock form div input::placeholder, #registerBlock form div input::placeholder {
+          color: #383838; }
+    #signInBlock form input[type=button], #registerBlock form input[type=button] {
+      width: 100px;
+      margin-top: 15px;
+      color: white;
+      font-size: 12px;
+      background-color: #383838;
+      border: none;
+      border-radius: 5px; }
+      #signInBlock form input[type=button]:hover, #registerBlock form input[type=button]:hover {
+        cursor: pointer;
+        color: lightgrey;
+        transition: color 0.2s; }
+    #signInBlock form div:last-child, #signInBlock form div:first-child, #registerBlock form div:last-child, #registerBlock form div:first-child {
+      width: 100%; }
+
+#registerBlock form {
+  flex-direction: row;
+  flex-wrap: wrap; }
+  #registerBlock form div {
+    width: 48%; }
+    #registerBlock form div input {
+      width: 100%; }
+
+.close {
+  width: 20px; }
+  .close span {
+    display: block;
+    width: 2px;
+    height: 25px; }
+  .close span:nth-child(1) {
+    transform: rotate(-43deg);
+    height: 29px; }
+  .close span:nth-child(2) {
+    transform: rotate(43deg); }
+
+@media only screen and (max-width: 1320px) {
+  body .wrapper {
+    width: 80%; } }

@@ -1,0 +1,402 @@
+[
+	{
+		"id": 1,
+		"title": "Amour",
+		"photo": {
+			"source": "1.jpg",
+			"alt": "Amour"
+		},
+		"synopsis":"Georges and Anne are in their eighties. They are cultivated, retired music teachers. Their daughter, who is also a musician, lives abroad with her family. One day, Anne has a stroke, and the couple’s bond of love is severely tested.",
+		"year": 2012,
+		"length": "127 min",
+		"crew": {
+			"directors": ["Michael Haneke"],
+			"producers": ["Stefan Arndt","Veit Heiduschka","Margaret Ménégoz","Michael Katz","Uwe Schott"],
+			"writers": ["Michael Haneke"],
+			"editors": ["Nadine Muse","Monika Willi"],
+			"cinematography": ["Darius Khondji"]
+		},
+		"cast":["Jean-Louis Trintignant","Emmanuelle Riva","Isabelle Huppert","William Shimell","Ramón Agirre","Rita Blanco","Carole Franck","Dinara Drukarova","Laurent Capelluto","Jean-Michel Monroc","Damien Jouillerot","Walid Afkir"],
+		"genres": ["drama","romance"]
+	},
+	{
+		"id": 2,
+		"title": "Fanny and Alexander",
+		"photo": {
+			"source": "2.jpg",
+			"alt": "Fanny and Alexander"
+		},
+		"synopsis": "As children in the loving Ekdahl family, Fanny and Alexander enjoy a happy life with their parents, who run a theater company. After their father dies unexpectedly, however, the siblings end up in a joyless home when their mother, Emilie, marries a stern bishop. The bleak situation gradually grows worse as the bishop becomes more controlling, but dedicated relatives make a valiant attempt to aid Emilie, Fanny and Alexander.",
+		"year": 1982,
+		"length": "188 min",
+		"crew": {
+			"directors": ["Ingmar Bergman"],
+			"producers": ["Jörn Donner"],
+			"writers": ["Ingmar Bergman"],
+			"editors": ["Sylvia Ingemarsson"],
+			"cinematography": ["Sven Nykvist"]
+		},
+		"cast":["Bertil Guve","Pernilla Allwin","Allan Edwall","Ewa Fröling","Erland Josephson","Jan Malmsjö","Gunn Wållgren","Börje Ahlstedt","Harriet Andersson","Gunnar Björnstrand","Stina Ekblad","Mats Bergman","Pernilla August","Mona Malm","Jarl Kulle","Christina Schollin"],
+		"genres": ["drama","fantasy","mystery"]
+	},
+	{
+		"id": 3,
+		"title": "Brazil",
+		"photo": {
+			"source": "3.jpg",
+			"alt": "Brazil"
+		},
+		"year": 1985,
+		"synopsis": "Low-level bureaucrat Sam Lowry escapes the monotony of his day-to-day life through a recurring daydream of himself as a virtuous hero saving a beautiful damsel. Investigating a case that led to the wrongful arrest and eventual death of an innocent man instead of wanted terrorist Harry Tuttle, he meets the woman from his daydream, and in trying to help her gets caught in a web of mistaken identities, mindless bureaucracy and lies.",
+		"length": "132 min",
+		"crew": {
+			"directors": ["Terry Gilliam"],
+			"producers": ["Arnon Milchan", "Patrick Cassavetti"],
+			"writers": ["Terry Gilliam","Tom Stoppard","Charles McKeown"],
+			"editors": ["Julian Doyle"],
+			"cinematography": ["Roger Pratt"]
+		},
+		"cast":["Jonathan Pryce","Robert De Niro","Katherine Helmond","Ian Holm","Bob Hoskins","Michael Palin","Ian Richardson","Terry Gilliam","Peter Vaughan","Kim Greist","Jim Broadbent","Derrick O'Connor","Roger Ashton-Griffiths"],
+		"genres": ["comedy","science fiction"]
+	},
+	{
+		"id": 4,
+		"title": "The Lighthouse",
+		"photo": {
+			"source": "4.jpg",
+			"alt": "The Lighthouse"
+		},
+		"year": 2019,
+		"synopsis": "Two lighthouse keepers try to maintain their sanity while living on a remote and mysterious New England island in the 1890s.",
+		"length": "110 min",
+		"crew": {
+			"directors": ["Robert Eggers"],
+			"producers": ["Arnon Milchan","Chris Columbus","Eleanor Columbus"],
+			"writers": ["Robert Eggers","Max Eggers"],
+			"editors": ["Louise Ford"],
+			"cinematography": ["Jarin Blaschke"]
+		},
+		"cast":["Robert Pattinson","Willem Dafoe","Valeriia Karaman","Logan Hawkes","Kyla Nicolle","Shaun Clarke","Pierre Richard","Preston Hudson","Jeff Cruts"],
+		"genres": ["horror","mystery","fantasy","drama"]
+	},
+	{
+		"id": 5,
+		"title": "Punch-Drunk Love",
+		"photo": {
+			"source": "5.jpg",
+			"alt": "Punch-Drunk Love"
+		},
+		"year": 2002,
+		"synopsis": "A socially awkward and volatile small business owner meets the love of his life after being threatened by a gang of scammers.",
+		"length": "96 min",
+		"crew": {
+			"directors": ["Paul Thomas Anderson"],
+			"producers": ["Paul Thomas","Anderson Daniel","Lupi JoAnne Sellar"],
+			"writers": ["Paul Thomas Anderson"],
+			"editors": ["Leslie Jones"],
+			"cinematography": ["Robert Elswit"]
+		},
+		"cast":["Adam Sandler","Emily Watson","Philip Seymour Hoffman","Luis Guzmán","Mary Lynn Rajskub","Robert Smigel","Jason Andrews","Don McManus","David Schrempf"],
+		"genres": ["comedy","drama","romance"]
+	},
+	{
+		"id": 6,
+		"title": "The Man Who Fell to Earth",
+		"photo": {
+			"source": "6.jpg",
+			"alt": "The Man Who Fell to Earth"
+		},
+		"year": 1976,
+		"synopsis": "Thomas Jerome Newton is an alien who has come to Earth in search of water to save his home planet. Aided by lawyer Oliver Farnsworth, Thomas uses his knowledge of advanced technology to create profitable inventions. While developing a method to transport water, Thomas meets Mary-Lou, a quiet hotel clerk, and begins to fall in love with her. Just as he is ready to leave Earth, Thomas is intercepted by the U.S. government, and his entire plan is threatened.",
+		"length": "138 min",
+		"crew": {
+			"directors": ["Nicolas Roeg"],
+			"producers": ["Michael Deeley","Barry Spikings","Si Litvinoff"],
+			"writers": ["Walter Tevis","Paul Mayersberg"],
+			"editors": ["Graeme Clifford"],
+			"cinematography": ["Anthony B. Richmond"]
+		},
+		"cast":["David Bowie","Rip Torn","Candy Clark","Tony Mascia","Buck Henry","Bernie Casey","Rick Riccardo","Linda Hutton","Hilary Holland","Jackson D. Kane","Adrienne La Russa","Claudia Jennings"],
+		"genres": ["drama","science fiction"]
+	},
+	{
+		"id": 7,
+		"title": "Kwaidan",
+		"photo": {
+			"source": "7.jpg",
+			"alt": "Kwaidan"
+		},
+		"year": 1964,
+		"synopsis": "Taking its title from an archaic Japanese word meaning “ghost story,” this anthology adapts four folk tales. A penniless samurai marries for money with tragic results. A man stranded in a blizzard is saved by Yuki the Snow Maiden, but his rescue comes at a cost. Blind musician Hoichi is forced to perform for an audience of ghosts. An author relates the story of a samurai who sees another warrior’s reflection in his teacup.",
+		"length": "182 min",
+		"crew": {
+			"directors": ["Masaki Kobayashi"],
+			"producers": ["Shigeru Wakatsuki","Kazuo Kuwahara","Michiyoshi Takashima","Yôichi Ukita"],
+			"writers": ["Yoko Mizuki","Lafcadio Hearn"],
+			"editors": ["Hisashi Sagara"],
+			"cinematography": ["Yoshio Miyajima"]
+		},
+		"cast":["Michiyo Aratama","Misako Watanabe","Rentarô Mikuni","Kenjiro Ishiyama","Ranko Akagi","Fumie Kitahara"],
+		"genres": ["drama","horror", "fantasy"]
+	},
+	{
+		"id": 8,
+		"title": "Miami Vice",
+		"photo": {
+			"source": "8.jpg",
+			"alt": "Miami Vice"
+		},
+		"year": 2006,
+		"synopsis": "Miami Vice is a feature film based on the 1980s action drama TV series. The film tells the story of vice detectives Crockett and Tubbs and how their personal and professional lives are dangerously getting mixed.",
+		"length": "132 min",
+		"crew": {
+			"directors": ["Michael Mann"],
+			"producers": ["Michael Mann", "Pieter Jan Brugge", "Jeff G. Waxman", "Anthony Yerkovich"],
+			"writers": ["Michael Mann","Anthony Yerkovich"],
+			"editors": ["William Goldenberg","Paul Rubell"],
+			"cinematography": ["Dion Beebe"]
+		},
+		"cast":["Jamie Foxx","Colin Farrell","Gong Li","Luis Tosar","Naomie Harris","Justin Theroux","Ciarán Hinds","John Ortiz","Elizabeth Rodriguez","Domenick Lombardozzi","Eddie Marsan"],
+		"genres": ["action","crime","adventure","thriller"]
+	},
+	{
+		"id": 9,
+		"title": "Crooklyn",
+		"photo": {
+			"source": "9.jpg",
+			"alt": "Crooklyn"
+		},
+		"year": 1994,
+		"synopsis": "From Spike Lee comes this vibrant semi-autobiographical portrait of a school-teacher, her stubborn jazz-musician husband and their five kids living in ’70s Brooklyn.",
+		"length": "115 min",
+		"crew": {
+			"directors": ["Spike Lee"],
+			"producers": ["Jon Kilik","Spike Lee Preston","L. Holmes"],
+			"writers": ["Spike Lee","Joie Lee","Cinqué Lee"],
+			"editors": ["Barry Alexander Brown"],
+			"cinematography": ["Arthur Jafa"]
+		},
+		"cast":["Alfre Woodard","Delroy Lindo","David Patrick Kelly","Zelda Harris","Carlton Williams","Sharif Rashed","Tse-Mach Washington","Christopher Knowings","José Zúñiga","Isaiah Washington","Ivelka Reyes","Spike Lee","Vondie Curtis-Hall","Frances Foster"],
+		"genres": ["drama","comedy"]
+	},
+	{
+		"id": 10,
+		"title": "Tully",
+		"photo": {
+			"source": "10.jpg",
+			"alt": "Tully"
+		},
+		"year": 2018,
+		"synopsis": "Marlo, a mother of three, including a newborn, is gifted a night nanny by her brother. Hesitant at first, she quickly forms a bond with the thoughtful, surprising, and sometimes challenging nanny named Tully.",
+		"length": "96 min",
+		"crew": {
+			"directors": ["Jason Reitman"],
+			"producers": ["Charlize Theron","A.J. Dix","Jason Reitman","Diablo Cody","Mason Novick","Ron McLeod"],
+			"writers": ["Diablo Cody"],
+			"editors": ["Stefan Grube"],
+			"cinematography": ["Eric Steelberg"]
+		},
+		"cast":["Charlize Theron","Mackenzie Davis","Ron Livingston","Mark Duplass","Asher Miles Fallica","Lia Frankland","Elaine Tan","Gameela Wright","Tattiawna Jones","Stormy Ent","Maddie Dixon-Poirier","Bella Star Choy","Dominic Good","Joshua Pak","Colleen Wheeler","Emily Haine","Marceline Hugot"],
+		"genres": ["comedy","drama"]
+	},
+	{
+		"id": 11,
+		"title": "Umberto D.",
+		"photo": {
+			"source": "11.jpg",
+			"alt": "Umberto D."
+		},
+		"year": 1952,
+		"synopsis": "When elderly pensioner Umberto Domenico Ferrari returns to his boarding house from a protest calling for a hike in old-age pensions, his landlady demands her 15,000-lire rent by the end of the month or he and his small dog will be turned out onto the street. Unable to get the money in time, Umberto fakes illness to get sent to a hospital, giving his beloved dog to the landlady’s pregnant and abandoned maid for temporary safekeeping.",
+		"length": "91 min",
+		"crew": {
+			"directors": ["Vittorio De Sica"],
+			"producers": ["Giuseppe Amato","Angelo Rizzoli","Vittorio De Sica","Roberto Moretti"],
+			"writers": ["Cesare Zavattini"],
+			"editors": ["Eraldo Da Roma"],
+			"cinematography": ["G.R. Aldo"]
+		},
+		"cast":["Carlo Battisti","Lina Gennari","Ileana Simova","Elena Rea","Memmo Carotenuto","Alberto Albani Barbieri","Lamberto Maggiorani","Maria Pia Casilio"],
+		"genres": ["drama"]
+	},
+	{
+		"id": 12,
+		"title": "Supermarket Woman",
+		"photo": {
+			"source": "12.jpg",
+			"alt": "Supermarket Woman"
+		},
+		"year": 1996,
+		"synopsis": "Goro’s supermarket is not doing well; the rival “Bargains Galore” threatens his business. A chance encounter with Hanako, an energetic woman he knew in grade school, results in big retail and life changes.",
+		"length": "127 min",
+		"crew": {
+			"directors": ["Juzo Itami"],
+			"producers": ["Yasushi Tamaoki","Takashi Kawasaki"],
+			"writers": ["Juzo Itami"],
+			"editors": ["Akira Suzuki"],
+			"cinematography": ["Yonezô Maeda"]
+		},
+		"cast":["Nobuko Miyamoto","Masahiko Tsugawa","Sen Yano","Shirô Itô","Yuji Miyaji","Hikaru Ijyuin","Naomasa Musaka","Akiko Matsumoto","Takejyo Aki","Yoko Nogiwa","Mansaku Fuwa","Shinoburyû","Chôei Takahashi","Aki Takejo","Shingo Yanagisawa"],
+		"genres": ["comedy"]
+	},
+	{
+		"id": 13,
+		"title": "Carol",
+		"photo": {
+			"source": "13.jpg",
+			"alt": "Carol"
+		},
+		"year": 2015,
+		"synopsis": "In 1950s New York, a department-store clerk who dreams of a better life falls for an older, married woman.",
+		"length": "118 min",
+		"crew": {
+			"directors": ["Todd Haynes"],
+			"producers": ["Tessa Ross","Bob Weinstein","Harvey Weinstein","Cate Blanchett","Christine Vachon","Stephen Woolley","Andrew Upton"],
+			"writers": ["Patricia Highsmith","Phyllis Nagy"],
+			"editors": ["Affonso Gonçalves"],
+			"cinematography": ["Edward Lachman"]
+		},
+		"cast":["Rooney Mara","Cate Blanchett","Kyle Chandler","Sarah Paulson","Jake Lacy","John Magaro","Cory Michael Smith","Carrie Brownstein","Kevin Crowley","Nik Pajic","Trent Rowland"],
+		"genres": ["drama","romance"]
+	},
+	{
+		"id": 14,
+		"title": "Knives Out",
+		"photo": {
+			"source": "14.jpg",
+			"alt": "Knives Out"
+		},
+		"year": 2019,
+		"synopsis": "When renowned crime novelist Harlan Thrombey is found dead at his estate just after his 85th birthday, the inquisitive and debonair Detective Benoit Blanc is mysteriously enlisted to investigate. From Harlan’s dysfunctional family to his devoted staff, Blanc sifts through a web of red herrings and self-serving lies to uncover the truth behind Harlan’s untimely death.",
+		"length": "132 min",
+		"crew": {
+			"directors": ["Rian Johnson"],
+			"producers": ["Arnon Milchan", "Patrick Cassavetti"],
+			"writers": ["Terry Gilliam","Tom Stoppard","Charles McKeown"],
+			"editors": ["Julian Doyle"],
+			"cinematography": ["Roger Pratt"]
+		},
+		"cast":["Daniel Craig","Chris Evans","Ana de Armas","Jamie Lee Curtis","Michael Shannon","Don Johnson","Toni Collette","Lakeith Stanfield","Christopher Plummer","Katherine Langford","Jaeden Martell","Riki Lindhome","Edi Patterson","Frank Oz","K Callan","Noah Segan","M. Emmet Walsh","Marlene Forte"],
+		"genres": ["comedy","mystery", "drama","thriller","crime"]
+	},
+	{
+		"id": 15,
+		"title": "Two Days, One Night",
+		"photo": {
+			"source": "15.jpg",
+			"alt": "Two Days, One Night"
+		},
+		"year": 2014,
+		"synopsis": "Sandra is a young woman who has only one weekend to convince her colleagues they must give up their bonuses in order for her to keep her job — not an easy task in this economy.",
+		"length": "95 min",
+		"crew": {
+			"directors": ["Luc Dardenne","Jean-Pierre Dardenne"],
+			"producers": ["Luc Dardenne"],
+			"writers": ["Luc Dardenne","Jean-Pierre Dardenne"],
+			"editors": ["Marie-Hélène Dozo"],
+			"cinematography": ["Alain Marcoen"]
+		},
+		"cast":["Marion Cotillard","Fabrizio Rongione","Catherine Salée","Damien Trapletti","Batiste Sornin","Pili Groyne","Simon Caudry"],
+		"genres": ["drama"]
+	},
+	{
+		"id": 16,
+		"title": "The French Dispatch",
+		"photo": {
+			"source": "16.jpg",
+			"alt": "The French Dispatch"
+		},
+		"year": 2020,
+		"synopsis": "The staff of a European publication decides to publish a memorial edition highlighting the three best stories from the last decade: an artist sentenced to life imprisonment, student riots, and a kidnapping resolved by a chef.",
+		"length": "108 min",
+		"crew": {
+			"directors": ["Wes Anderson"],
+			"producers": ["Wes Anderson", "Scott Rudin","Henning Molfenter","Charlie Woebcken","Roman Coppola","Jeremy Dawson"],
+			"writers": ["Wes Anderson","Jason Schwartzman","Roman Coppola","Hugo Guinness"],
+			"editors": ["Andrew Weisblum"],
+			"cinematography": ["Robert D. Yeoman"]
+		},
+		"cast":["Bill Murray","Benicio del Toro","Frances McDormand","Jeffrey Wright","Adrien Brody","Tilda Swinton","Owen Wilson","Timothée Chalamet","Léa Seydoux","Mathieu Amalric","Lyna Khoudri","Steve Park","Liev Schreiber","Elisabeth Moss","Edward Norton","Willem Dafoe","Lois Smith","Saoirse Ronan","Christoph Waltz","Cécile de France","Guillaume Gallienne"],
+		"genres": ["comedy","drama","romance"]
+	},
+	{
+		"id": 17,
+		"title": "Pulp Fiction",
+		"photo": {
+			"source": "17.jpg",
+			"alt": "Pulp Fiction"
+		},
+		"year": 1994,
+		"synopsis": "A burger-loving hit man, his philosophical partner, a drug-addled gangster’s moll and a washed-up boxer converge in this sprawling, comedic crime caper. Their adventures unfurl in three stories that ingeniously trip back and forth in time.",
+		"length": "154 min",
+		"crew": {
+			"directors": ["Quentin Tarantino"],
+			"producers": ["Lawrence Bender","Danny DeVito","Michael Shamberg","Stacey Sher"],
+			"writers": ["Quentin Tarantino","Roger Avary"],
+			"editors": ["Sally Menke"],
+			"cinematography": ["Andrzej Sekula"]
+		},
+		"cast":["John Travolta","Samuel L. Jackson","Uma Thurman","Bruce Willis","Ving Rhames","Harvey Keitel","Eric Stoltz","Tim Roth","Amanda Plummer","Maria de Medeiros","Quentin Tarantino","Christopher Walken","Rosanna Arquette","Peter Greene"],
+		"genres": ["thriller","crime"]
+	},
+	{
+		"id": 18,
+		"title": "Taxi Driver",
+		"photo": {
+			"source": "18.jpg",
+			"alt": "Taxi Driver"
+		},
+		"year": 1976,
+		"synopsis": "A mentally unstable Vietnam War veteran works as a night-time taxi driver in New York City where the perceived decadence and sleaze feed his urge for violent action, attempting to save a preadolescent prostitute in the process.",
+		"length": "114 min",
+		"crew": {
+			"directors": ["Martin Scorsese"],
+			"producers": ["Julia Phillips","Michael Phillips"],
+			"writers": ["Paul Schrader"],
+			"editors": ["Tom Rolf","Melvin Shapiro"],
+			"cinematography": ["Michael Chapman"]
+		},
+		"cast":["Robert De Niro","Jodie Foster","Albert Brooks","Harvey Keitel","Cybill Shepherd","Peter Boyle","Leonard Harris","Diahnne Abbott","Gino Ardito","Martin Scorsese"],
+		"genres": ["crime","drama"]
+	},
+	{
+		"id": 19,
+		"title": "Back to the Future",
+		"photo": {
+			"source": "19.jpg",
+			"alt": "Back to the Future"
+		},
+		"year": 1985,
+		"synopsis": "Eighties teenager Marty McFly is accidentally sent back in time to 1955, inadvertently disrupting his parents’ first meeting and attracting his mother’s romantic interest. Marty must repair the damage to history by rekindling his parents’ romance and – with the help of his eccentric inventor friend Doc Brown – return to 1985.",
+		"length": "116 min",
+		"crew": {
+			"directors": ["Robert Zemeckis"],
+			"producers": ["Steven Spielberg","Kathleen Kennedy","Frank Marshall","Bob Gale","Neil Canton"],
+			"writers": ["Robert Zemeckis","Bob Gale"],
+			"editors": ["Arthur Schmidt","Harry Keramidas"],
+			"cinematography": ["Dean Cundey"]
+		},
+		"cast":["Michael J. Fox","Christopher Lloyd","Lea Thompson","Crispin Glover","Thomas F. Wilson","Claudia Wells","Marc McClure","Wendie Jo Sperber","George DiCenzo"],
+		"genres": ["comedy","science fiction","adventure","family"]
+	},
+	{
+		"id": 20,
+		"title": "Call Me by Your Name",
+		"photo": {
+			"source": "20.jpg",
+			"alt": "Call Me by Your Name"
+		},
+		"year": 2017,
+		"synopsis": "In 1980s Italy, a relationship begins between seventeen-year-old teenage Elio and the older adult man hired as his father’s research assistant.",
+		"length": "132 min",
+		"crew": {
+			"directors": ["Luca Guadagnino"],
+			"producers": ["James Ivory","Howard Rosenman","Luca Guadagnino","Peter Spears","Marco Morabito","Emilie Georges","Rodrigo Teixeira"],
+			"writers": ["James Ivory","André Aciman"],
+			"editors": ["Walter Fasano"],
+			"cinematography": ["Sayombhu Mukdeeprom"]
+		},
+		"cast":["Timothée Chalamet","Armie Hammer","Michael Stuhlbarg","Amira Casar","Esther Garrel","Victoire Du Bois","Vanda Capriolo","Antonio Rimoldi","Elena Bucci","Marco Sgrosso","André Aciman","Peter Spears","Xhuliano Ujka"],
+		"genres": ["drama","romance"]
+	}
+]
